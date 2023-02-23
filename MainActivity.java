@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends Activity {
+	//Deklarasi Variabel
 	EditText user, pass;
 	Button login, cancel;
 	Cursor cursor;
@@ -23,6 +24,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+	    //Memanggil id
         user = (EditText) findViewById(R.id.edtusername);
         pass = (EditText) findViewById(R.id.edtpass);
         login = (Button) findViewById(R.id.btnlogin);
